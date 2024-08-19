@@ -1,0 +1,17 @@
+//
+//  Debug.xcconfig
+//  Eat happy
+//
+//  Created by Fady Sameh on 8/4/24.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+base = http:/
+domain = 3.130.17.165/
+APPLICATION_NAME = ManagerApp
+BUNDLE_IDENTIFIER = com.Spotideas.ManagerApp
+SERVER_URL = $(base)/$(domain)
+IMAGE_URL = $(SERVER_URL)public/
+API_TOKEN = shouldBeRealToken
+BUNDLE_DISPLAY_NAME = ManagerApp
